@@ -10,6 +10,7 @@
 
 @interface ViewController ()<UIPickerViewDelegate,UIPickerViewDataSource>
 
+//创建一个picker view.
 @property (strong, nonatomic) UIPickerView *pickerView;
 @property (strong, nonatomic) NSDictionary *dictionary;
 @property (strong, nonatomic) NSArray *provinceArray;
