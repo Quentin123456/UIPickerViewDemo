@@ -89,37 +89,11 @@ swift写法
         }
     }
     
-//    //设置列宽
-//    func pickerView(_ pickerView: UIPickerView, widthForComponent component: Int) -> CGFloat {
-//        if component == 0 {
-//            return 100
-//        } else {
-//            return 200
-//        }
-//    }
-    
     //设置每行选项的高度
     func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
         return 45
     }
-    
-//    //修改PickerView选项
-//    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
-//        //将图片设为PickerView选型
-//        let image = UIImage(named: "icon"+String(row))
-//        let imageView = UIImageView(image:image)
-//        //修改字体，大小，颜色
-//        var pickerLabel = view as? UILabel
-//        if pickerLabel == nil {
-//            pickerLabel = UILabel()
-//            pickerLabel?.font = UIFont.systemFont(ofSize: 16)
-//            pickerLabel?.textAlignment = .center
-//        }
-//
-//        pickerLabel?.text = String(row)+"-"+String(component)
-//        pickerLabel?.textColor = UIColor.blue
-//        return imageView//pickerLabel！(选择其一)
-//    }
+ 
     
     //检测响应选项的选择状态
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
