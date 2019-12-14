@@ -11,9 +11,13 @@
 @interface ViewController ()<UIPickerViewDelegate,UIPickerViewDataSource>
 
 @property (strong, nonatomic) UIPickerView *pickerView;
+
 @property (strong, nonatomic) NSDictionary *dictionary;
+
 @property (strong, nonatomic) NSArray *provinceArray;
+
 @property (strong, nonatomic) NSArray *cityArray;
+
 @property (strong, nonatomic) NSString *selectedProvince;
 
 @end
